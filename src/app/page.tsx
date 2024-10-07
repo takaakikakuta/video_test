@@ -8,6 +8,7 @@ export default function Home() {
         autoPlay
         muted
         loop
+        playsInline
         ></video>
     </div>
   );
