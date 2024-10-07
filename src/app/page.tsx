@@ -3,10 +3,11 @@ export default function Home() {
   return (
     <div className="h-screen">
       <video
-        className="h-full"
+        className="h-full object-cover"
         src="./NikkaWhisky.mp4"
         autoPlay
         muted
+        loop
         ></video>
     </div>
   );
